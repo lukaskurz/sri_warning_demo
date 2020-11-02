@@ -1,0 +1,31 @@
+{
+    "files.exclude": {
+        ".vscode/": true,
+        "dist/*": true,
+        "e2e/": true,
+        "node_modules/*": true
+    },
+    "javascript.preferences.quoteStyle": "double",
+    "typescript.preferences.quoteStyle": "double",
+    "typescript.format.semicolons": "insert",
+    "editor.codeActionsOnSave": {
+        "source.fixAll.tslint": true
+    },
+    "sqltools.connections": [
+        {
+            "askForPassword": false,
+            "database": "bizztrack",
+            "driver": "MariaDB",
+            "mysqlOptions": {
+                "authProtocol": "default"
+            },
+            "name": "devel",
+            "password": "password",
+            "port": 3306,
+            "previewLimit": 50,
+            "server": "localhost",
+            "username": "root"
+        }
+    ],
+    "sqltools.useNodeRuntime": true
+}
